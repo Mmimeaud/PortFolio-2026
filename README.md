@@ -22,8 +22,8 @@ Ce projet est en constante évolution. La prochaine étape (V2) sera dédiée à
 
 ## 📂 Structure du projet
 - `/images` : Assets et logos.
-- /CSS : Fichiers sources et configuration @theme de Tailwind. 
-- /dist : CSS compilé et optimisé pour la production.
+- `/CSS` : Fichiers sources et configuration @theme de Tailwind. 
+- `/dist` : CSS compilé et optimisé pour la production.
 - `/js` : fonctions utilitaires.
 - `/pages` : Structure HTML.
 - `index.html` : Point d'entrée principal.
