@@ -1,0 +1,41 @@
+@import "tailwindcss";
+
+
+img{
+    height: auto!important;
+}
+
+@theme {
+
+    /* POLICE */
+    --font-poppins: "Poppins", sans-serif; 
+    --font-lora: "Lora", sans-serif; 
+  
+
+    /* COULEUR PERSO */
+    --color-main: #292736;
+  --color-main-light: #4A4856;
+  --color-red-dark: #D41313;
+  --color-red-light: #F4C4C4;
+  --color-gray-dark: #626262;
+  --color-gray-light: #E6E6E6;
+  --color-pink-eclat: #EB789B; 
+  --color-black-jacket: #1C1C1E;
+  --color-Linge :	#FAF9F6;
+
+/* Taille de police */
+ --text-tiny: 0.625rem;
+
+  /* Espacements / Tailles */
+  --max-width-260: 260px;
+
+}
+
+@utility no-scrollbar {
+  scrollbar-width: none; /* Firefox */
+  -ms-overflow-style: none; /* IE/Edge */
+  &::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, Opera */
+  }
+}
+
