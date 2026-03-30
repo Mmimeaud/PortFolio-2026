@@ -1,9 +1,19 @@
 @import "tailwindcss";
 
 
+html, body {
+    overflow-x: hidden;
+}
 img{
     height: auto!important;
 }
+
+video{
+    height:auto!important;
+    width: 100%;
+      aspect-ratio: 4/3; /* ou 4/3 selon ta vidéo */
+}
+
 
 @theme {
 
@@ -29,6 +39,13 @@ img{
   /* Espacements / Tailles */
   --max-width-260: 260px;
 
+  /* Break Point */
+  --breakpoint-xs : 350px;
+  --breakpoint-sm:650px ;
+    --breakpoint-md: 768px;  
+   --breakpoint-tablet: 900px;  
+   --breakpoint-laptop:1175px
+
 }
 
 @utility no-scrollbar {
@@ -36,6 +53,16 @@ img{
   -ms-overflow-style: none; /* IE/Edge */
   &::-webkit-scrollbar {
     display: none; /* Chrome, Safari, Opera */
+  }
+}
+
+@utility carousel-card {
+  height: 250px;
+  width: 375px;
+  
+  @media (min-width: 768px) {
+    height: 400px;
+    width: 550px;
   }
 }
 

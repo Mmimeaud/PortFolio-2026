@@ -31,172 +31,748 @@
                 </div>
                 <a class=" pl-3 pr-3 pt-2 pb-2 rounded-2xl text-center h-full
                     active:scale-95 transition-transform text-white bg-black hover:bg-pink-eclat hover:text-main cursor-pointer hover:duration-300 hover:skew-3"
-                    href=" ./index.html" aria-label="Bouton retour à la page principale"> Accueil
+                    href=" ../index.html" aria-label="Bouton retour à la page principale"> Accueil
                 </a>
             </div>
         </nav>
     </header>
 
     <main>
-        <section>
+        <div class="mt-15 space-y-8 relative pr-5 flex flex-col   before:px-1 before:ml-5 before:absolute before:inset-0  before:-translate-x-px before:h-full before:w-0.5 before:bg-gradient-to-b before:from-[#EB789B] before:to-gray-200
+               ">
 
+            <div class="grid grid-cols-1 gap-10  pl-15 mt-10">
 
-
-            <div
-                class="
-                mt-15
-                space-y-8 relative pr-5 flex flex-col   before:px-1 before:ml-5 before:absolute before:inset-0  before:-translate-x-px before:h-full before:w-0.5 before:bg-gradient-to-b before:from-[#EB789B] before:to-gray-200
-                     |  md:before:ml-0 md:before:w-full md:before:h-0.5 md:before:top-5 md:before:bg-gradient-to-r md:before:from-gray-200 md:before:to-pink-eclat md:flex-row-reverse">
-
-                <div class="grid grid-cols-1 gap-10 md:grid-cols-3  pl-15 mt-10">
-
-                    <!-- CARTES PROJETS :  -->
-                    <!-- CARTES PORTFOLIO -->
-                    <div
-                        class="border-2 border-pink-eclat rounded-4xl shadow-2xl p-10 w-max-auto relative flex gap-5 flex-col">
-                        <div class="flex flex-row gap-5">
+                <!-- CARTES PROJETS :  -->
+                <!-- CARTES PORTFOLIO -->
+                <article class="w-full mt-10">
+                    <div class="border-2 border-pink-eclat rounded-4xl shadow-2xl p-2 relative flex gap-5 flex-col 
+                                 md:p-5  md:flex md:flex-row">
+                        <div class=" w-full
+                       xs:grid xs:grid-cols-1 xs:gap-5
+                        sm:gap-5 sm:grid sm:grid-cols-2 sm:grid-rows-3 
+                        laptop:grid laptop:grid-cols-3 laptop:grid-rows-1 laptop:gap-1  ">
                             <!-- LE TITRE DU PROJET -->
-                            <h1 class="absolute left-[-30px] top-3 w-max h-max z-50 bg-pink-eclat px-4 rounded-2xl">
-                                2026
-                                :PROJET PORTFOLIO </h1>
+                            <section class=" 
+                            xs:col-strart-1
+                            sm:col-start-1 sm:row-span-2
+                            laptop:col-start-1 laptop:row-start-1 
+                            
+                            mb-5 w-full md:mt-8">
+                                <h1 class="absolute left-[-30px] top-3 w-max h-max z-50 bg-pink-eclat px-4 rounded-2xl">
+                                    2026
+                                    :PROJET PORTFOLIO </h1>
 
-                            <!-- LE CARROUSSELLE DU PORTFOLIO -->
-                            <!-- 1 CONTENANT -->
-                            <div class="bg-Linge p-2 mt-5 h-[350px] w-[250px] justify-center rounded-3xl shadow-2xl shadow-black-jacket
+                                <!-- LE CARROUSSELLE DU PORTFOLIO -->
+                                <!-- 1 CONTENANT -->
+                                <div class="bg-Linge pt-5 p-2 mt-5  justify-center rounded-3xl shadow-2xl shadow-black-jacket
                          | md:w-[350px] md:h-[500px] md:p-2">
-                                <!-- 2 RAILS -->
-                                <div id="rail"
-                                    class="flex overflow-x-auto no-scrollbar snap-x snap-mandatory  scroll-smooth w-full h-full">
-
-                                    <!-- PHOTOS /VIDEO -->
+                                    <!-- 2 RAILS -->
                                     <div
-                                        class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
-                                        <img src="../images/mockups/PortF-S-Screen.png" alt="Description de mon projet"
-                                            class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
-                                        <p class="text-black pt-3"> Mon PortFolio</p>
+                                        class="rail flex overflow-x-auto no-scrollbar snap-x snap-mandatory  scroll-smooth w-full h-full">
+
+                                        <!-- PHOTOS /VIDEO -->
+                                        <div
+                                            class="snap-center shrink-0 xs:max-h-[400px] xs:max-w-[200px] sm:max-w-full sm:max-h-full mx-auto  flex justify-center items-center flex-col pb-5">
+                                            <img src="../images/mockups/PortF-S-Screen.png"
+                                                alt="Description de mon projet"
+                                                class=" object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3"> Mon PortFolio</p>
+                                        </div>
                                     </div>
                                 </div>
-                            </div>
+                            </section>
                             <!-- FIN CONTENANT  -->
                             <!-- TAGS SKILLS et TOOLS  -->
-                            <div class="flex flex-col">
-                                <div class="  flex flex-row max-w-[300px] gap-5 ">
 
-                                    <div class="bg-pink-eclat/20 rounded-3xl p-5 shadow-2xl max-w-[100px]">
-                                        <h3 class="text-sm px-3 text-center font-lora font-medium"> SKILLS </h3>
-                                        <div class=" flex flex-col flex-wrap gap-5 mt-2 justify-center items-center ">
+                            <section class="
+                               xs:col-strart-1    
+                                sm:col-start-2 sm:row-span-2 sm:content-center
+                                 laptop:col-start-2 laptop:row-start-1 
+                                    max-w-full mx-auto md:mt-10">
+                                <div class="flex flex-col justify-center items-center ">
+                                    <div class="  flex flex-row max-w-full gap-5 md:flex-row ">
 
-                                            <div class="flex flex-col justify-center items-center">
-                                                <img src="../images/skills/Tailwind.png" alt="Tailwind CSS Logo"
-                                                    class="w-8 h-8 object-contain rounded-2xl">
-                                                <p class="text-tiny text-center"> Tailwind-4 CSS </p>
+                                        <div
+                                            class="relative border-2 border-pink-eclat bg-Linge rounded-3xl p-5 shadow-2xl">
+                                            <h3
+                                                class=" absolute top-[-20px] left-[-20px] text-sm px-6 text-center font-lora font-medium bg-Linge shadow-xl shadow-gray-500 border-2 border-pink-eclat/60 p-2 rounded-4xl">
+                                                SKILLS </h3>
+                                            <div
+                                                class=" flex flex-col flex-wrap gap-5 mt-2 justify-center items-center ">
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/Tailwind.png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain rounded-2xl">
+                                                    <p class="text-tiny text-center"> Tailwind-4 CSS </p>
+                                                </div>
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/html.png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain">
+                                                    <p class="text-tiny text-center">HTML5</p>
+                                                </div>
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/JS.png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain ">
+                                                    <p class="text-tiny text-center">JavaScript ES6</p>
+                                                </div>
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/page-responsive.png"
+                                                        alt="Tailwind CSS Logo" class="w-8 h-8 object-contain ">
+                                                    <p class="text-tiny text-center">Responsive Design</p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+                                        <div
+                                            class="relative border-2 border-pink-eclat bg-Linge rounded-3xl p-2 md:p-5 shadow-2xl">
+                                            <h3
+                                                class=" absolute top-[-20px] left-[-20px] text-sm px-6 text-center font-lora font-medium bg-Linge shadow-xl shadow-gray-500 border-2 border-pink-eclat/60 p-2 rounded-4xl">
+                                                OUTILS </h3>
+                                            <div
+                                                class=" flex flex-col flex-wrap gap-5 mt-2 justify-center items-center  ">
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/Icone/github (1).png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain rounded-2xl">
+                                                    <p class="text-tiny text-center"> Git/GitHub </p>
+                                                </div>
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/Icone/github (1).png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain rounded-2xl">
+                                                    <p class="text-tiny text-center"> GitHub Pages </p>
+                                                </div>
+
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                                <!-- END : TAGS SKILLS et TOOLS  -->
+
+                            </section>
+                            <!-- FIN DE BLOC 1-->
+
+                            <!-- section SPEACH  -->
+                            <section class="
+                        
+                        xs:col-strart-1  
+                        sm:col-span-2 sm:row-start-3
+                        laptop:col-start-3 laptop:row-start-1 flex content-center ">
+                                <div
+                                    class="  bg-Linge/50 p-2 mt-2 justify-center rounded-xl shadow-2xl shadow-black-jacket  content-center">
+                                    <p class="text-sm tablet:text-lg"> Ce portfolio a été conçu avec deux objectifs
+                                        clair : <span class="text-pink-eclat font-bold"> Efficacité et rapidité.</span>
+                                    </p>
+                                    <p class=" text-sm tablet:text-xl ">J'ai fait le choix du
+                                        HTML pur et un peu JavaScript natif pour garantir une rapidité de chargement
+                                        maximale,
+                                        tout
+                                        en utilisant Tailwind CSS pour offrir une esthétique moderne et soignée sans la
+                                        lourdeur
+                                        d'un framework complexe.</p>
+                                    <p
+                                        class="text-sm tablet:text-lg text-tiny italic text-gray-600 border-t border-black/10 pt-2">
+                                        <span class="font-bold">Prochainement (V2) :</span> Focus sur l'accessibilité
+                                        avec
+                                        l'intégration d'un mode sombre,
+                                        le renforcement des contrastes et une typographie adaptée pour une expérience
+                                        inclusive.
+                                    </p>
+                                </div>
+                            </section>
+                        </div>
+                    </div>
+
+
+
+                    <!-- FIN CARTE 1 -->
+                </article>
+
+                <!-- CARTES 2 LA PINCE -->
+                <article>
+                    <div class="border-2 border-pink-eclat rounded-4xl shadow-2xl relative flex  gap-5 flex-col">
+                        <div class="
+                         xs:grid xs:grid-cols-1 xs:gap-5
+                        sm:gap-5 sm:grid sm:grid-cols-2  
+                        laptop:grid laptop:grid-cols-3  laptop:gap-1 ">
+                            <!-- LE TITRE DU PROJET -->
+                            <h1 class="absolute left-[-30px] top-3 w-max h-max z-50 bg-pink-eclat px-4 rounded-2xl">
+                                2025
+                                :PROJET LA PINCE </h1>
+
+                            <!-- LE CARROUSSELLE DU PORTFOLIO -->
+
+
+                            <section class="
+                            relative
+                            flex flex-col
+                                xs:col-strart-1 xs:pb-5
+                             sm:col-start-1 
+                             laptop:col-start-1 
+                             justify-center items-center">
+
+
+                                <!-- 1 CONTENANT -->
+
+                                <div class="bg-Linge p-2 mt-5 h-[400px] w-[250px]  rounded-3xl shadow-2xl shadow-black-jacket
+                                            | md:w-[350px] md:h-[500px] md:p-2">
+                                    <!-- 2 RAILS -->
+                                    <div
+                                        class="rail flex overflow-x-auto no-scrollbar snap-x snap-mandatory  scroll-smooth w-full h-full">
+                                        <!-- PHOTOS /VIDEO -->
+
+
+                                        <div
+                                            class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
+                                            <img src="../screen/La PInce/Capture.png" alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3"> LA PINCE y'en a pas deux ! </p>
+                                        </div>
+
+                                        <div
+                                            class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
+                                            <img src="../screen/La PInce/Inscription.png"
+                                                alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3"> Inscrivez-vous! </p>
+                                        </div>
+
+                                        <div
+                                            class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
+                                            <img src="../screen/La PInce/page connexion.png"
+                                                alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3"> Coonectez vous ! </p>
+                                        </div>
+
+                                        <div
+                                            class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
+                                            <img src="../images/mockups/la pince-home-SE.png"
+                                                alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3">Bienvenue sur votre page ! </p>
+                                        </div>
+                                        <div
+                                            class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
+                                            <img src="../screen/La PInce/ton tresor.png" alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3"> Votre trésor ! </p>
+                                        </div>
+
+
+                                        <div
+                                            class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
+                                            <img src="../screen/La PInce/campagne gaulle.png"
+                                                alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3"> Votre budget de campagne ! </p>
+                                        </div>
+                                        <div
+                                            class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
+                                            <img src="../screen/La PInce/Nouvelle pince (1).png"
+                                                alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3 text-tiny"> Ajouter une nouvelle dépense ! </p>
+                                        </div>
+
+                                        <div
+                                            class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
+                                            <img src="../screen/La PInce/Pince Sans connexion.png"
+                                                alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+                                            <p class="text-black pt-3"> Connectez vous ! </p>
+                                        </div>
+                                    </div>
+                                    <!-- FIN RAIL  -->
+                                    <!-- DOTS  -->
+                                    <div id="dots-container" class="flex justify-center gap-2 mt-4">
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="0"></div>
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="1"></div>
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="2"></div>
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="3"></div>
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="4"></div>
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="5"></div>
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="6"></div>
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="7"></div>
+                                    </div>
+                                    <!-- FIN DOTS  -->
+                                </div>
+                                <div class="mt-5">
+                                    <!-- BOUTONS PRECEDENT -->
+                                    <button
+                                        class="btn-left-js
+                                        p-2 m-5  bg-Linge rounded-3xl
+                                     hover:transition-transform hover:duration-500 hover:-rotate-x-180 hover:bg-pink-eclat/70 shadow-2xl pointer-events-auto">
+                                        <img src="../images/Icone/previous.png" width="35" height="35"
+                                            alt="Bouton Précédent">
+                                    </button>
+
+                                    <!-- BOUTON SUIVANT -->
+                                    <button
+                                        class="btn-right-js 
+                                    
+                                    p-2 m-5  bg-Linge rounded-3xl rotate-180 hover:transition-transform hover:duration-500 hover:-rotate-x-180 hover:bg-pink-eclat/70 shadow-2xl pointer-events-auto">
+                                        <img src="../images/Icone/previous.png" width="35" height="35"
+                                            alt="Bouton suivant">
+                                    </button>
+                                </div>
+                                <!-- FIN caroussel CONTENANT   -->
+
+                            </section>
+
+                            <!-- TAGS SKILLS et TOOLS  -->
+                            <section class="  
+
+                            xs:col-start-1  
+                             sm:col-span-2 sm:gap-2.5
+                             tablet:col-span-3 
+                             laptop:col-start-2 laptop:col-end-2 laptop:row-start-1
+                            max-w-full md:mt-10 ">
+                                <div class="flex flex-col  laptop:items-center">
+                                    <div class="flex flex-row  gap-5 laptop:pt-10 ">
+
+                                        <div
+                                            class="relative border-2 border-pink-eclat bg-Linge rounded-3xl p-5 shadow-2xl mb-10">
+                                            <h3
+                                                class=" absolute top-[-12px] left-[-20px] text-sm px-6 text-center font-lora font-medium bg-Linge shadow-xl shadow-gray-500 border-2 border-pink-eclat/60 p-2 rounded-4xl">
+                                                SKILLS </h3>
+
+                                            <div class=" flex flex-row flex-wrap  gap-y-2 mt-2 justify-center items-center
+                                                laptop:flex laptop:flex-col  ">
+
+                                                <div class=" relative flex flex-row flex-wrap tablet:gap-5 sm:gap-5 mt-5 max-w-full mb-0 justify-center
+                                                     laptop:flex laptop:flex-col">
+
+                                                    <div class="flex flex-col justify-center items-center">
+                                                        <img src="../images/skills/Node.png" alt="Node.js Logo"
+                                                            class="w-10 h-10 object-contain rounded-2xl">
+                                                        <p class="text-tiny text-center"> Node.js </p>
+                                                    </div>
+
+                                                    <div class="flex flex-col justify-center items-center">
+                                                        <img src="../images/skills/express.png" alt="Express JS Logo"
+                                                            class="w-12 h-12 object-contain">
+                                                        <p class="text-tiny text-center"> Express.js </p>
+
+                                                    </div>
+
+
+                                                    <div class="flex flex-col justify-center items-center">
+                                                        <img src="../images/skills/postgres.png" alt="PostgreSQL  Logo"
+                                                            class="w-12 h-12 object-contain ">
+                                                        <p class="text-tiny text-center"> PostgresSQL </p>
+                                                    </div>
+
+
+                                                    <div class="flex flex-col justify-center items-center">
+                                                        <img src="../images/skills/sequelize_original_wordmark_logo_icon_146349.png"
+                                                            alt="Sequelize Logo"
+                                                            class="w-15 h-10 object-contain rounded-4xl ">
+
+                                                    </div>
+                                                    <div class="flex flex-col justify-center items-center">
+                                                        <img src="../images/skills/React.png" alt="Tailwind CSS Logo"
+                                                            class="w-8 h-8 object-contain rounded-2xl">
+                                                        <p class="text-tiny text-center"> REACT </p>
+                                                    </div>
+
+                                                    <div class="flex flex-col justify-center items-center">
+                                                        <img src="../images/skills/typescript.png"
+                                                            alt="Tailwind CSS Logo" class="w-8 h-8 object-contain">
+                                                        <p class="text-tiny text-center">Type Script</p>
+                                                    </div>
+
+                                                    <div class="flex flex-col justify-center items-center">
+                                                        <img src="../images/skills/vite.jpg" alt="Tailwind CSS Logo"
+                                                            class="w-8 h-8 object-contain rounded-xl ">
+                                                        <p class="text-tiny text-center">Vite</p>
+                                                    </div>
+
+                                                    <div
+                                                        class="flex flex-wrap flex-col justify-center items-center w-[50px] ">
+                                                        <img src="../images/skills/page-responsive.png"
+                                                            alt="Tailwind CSS Logo" class="w-8 h-8 object-contain  ">
+                                                        <p class="text-tiny text-center">Responsive Design</p>
+                                                    </div>
+
+
+
+                                                </div>
+                                            </div>
+                                        </div>
+                                        <div
+                                            class="relative border-2 border-pink-eclat bg-Linge rounded-3xl p-5 shadow-2xl">
+                                            <h3
+                                                class=" absolute top-[-12px] left-[-20px] text-sm px-6 text-center font-lora font-medium bg-Linge shadow-xl shadow-gray-500 border-2 border-pink-eclat/60 p-2 rounded-4xl">
+                                                OUTILS </h3>
+                                            <div class=" flex flex-row flex-wrap gap-5 justify-center items-center pt-10 
+                                                 laptop:flex laptop:flex-col  ">
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/Icone/github (1).png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain rounded-2xl">
+                                                    <p class="text-tiny text-center"> Git/GitHub </p>
+                                                </div>
+
+                                                <div>
+                                                    <img src="../images/skills/vercel-ltjv9ugkhzcj1yk16y59an.webp"
+                                                        alt="Tailwind CSS Logo"
+                                                        class="w-16 h-16 object-contain rounded-2xl">
+
+                                                </div>
+
+                                                <div>
+                                                    <img src="../images/skills/render-logo-png_seeklogo-532232.png"
+                                                        alt="Tailwind CSS Logo"
+                                                        class="w-16 h-16 object-contain rounded-2xl">
+
+                                                </div>
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/neon.png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain rounded-2xl">
+                                                    <p class="text-tiny text-center"> Neon </p>
+                                                </div>
+
+                                            </div>
+                                        </div>
+
+
+                                    </div>
+                                </div>
+
+                                <!-- FIN: TAGS SKILLS et TOOLS  -->
+
+                            </section>
+                            <!-- FIN DE BLOC 1-->
+
+                            <!-- SPEACH BLOC 2 -->
+
+
+                            <section class="max-w-4xl mx-auto my-10 p-6 bg-white rounded-3xl shadow-xl border border-gray-100
+                              xs:col-start-1  
+                             sm:col-start-2 sm:row-start-1
+                             laptop:col-start-3  laptop::row-start-1">
+                                <div class="flex flex-col mb-8 gap-4 items-start md:items-center md:flex-row ">
+
+                                    <div>
+                                        <h2 class="text-3xl font-bold text-gray-800 flex items-center gap-2">
+                                            <img src="../images/mockups/crabe.png"
+                                                class="w-16 h-16 object-contain rounded-2xl">
+                                            La Pince
+                                        </h2>
+                                    </div>
+
+
+
+                                </div>
+
+                                <div class="mb-8 tablet:text-xl">
+                                    <p class="text-gray-600 leading-relaxed">
+                                        <strong>La Pince</strong> est une application réalisé en équipe pour la
+                                        <strong>fin
+                                            de formation du DWWM. </strong>.
+                                        C'est une application de gestion de budget, simple et intuitive.
+                                    </p>
+
+
+                                    <p class="text-gray-600 leading-relaxed">Cette expérience m'a permis de maîtriser
+                                        l'intégralité du cycle de vie d'une application, de la modélisation de la base
+                                        de
+                                        données au déploiement final. Le projet a été mené selon la <strong>méthodologie
+                                            Agile,</strong>
+                                        structuré en <strong> 4 sprints</strong> intensifs pour livrer un premier MVP
+                                        fonctionnel.
+                                    </p>
+
+                                </div>
+                                <div class="flex xs:flex-col sm:flex-row md:flex-row gap-5">
+                                    <a href="https://mon-site.com" target="_blank" rel="noopener noreferrer"
+                                        class="text-center bg-black-jacket p-2 rounded-2xl  shadow-2xl shadow-black-jacket text-Linge hover:bg-pink-eclat hover:text-black-jacket mx-auto"
+                                        aria-label="Voir le projet La Pince, ouvre dans un nouvel onglet">
+                                        <img class="bg-Linge  mx-auto" src="../images/Icone/photo.png" width="20"
+                                            height="20">
+                                        Voir le site
+                                    </a>
+                                    <a href="https://github.com/Mmimeaud/la-pince-front-Version-perso" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-center bg-black-jacket rounded-2xl  shadow-2xl shadow-black-jacket text-Linge hover:bg-pink-eclat hover:text-black-jacket mx-auto p-3"
+                                        aria-label="Voir le repositorie Front dans Github, ouvre dans un nouvel onglet">
+                                        <img class="bg-Linge rounded-4xl mx-auto" src="../images/Icone/GitWhite.png"
+                                            width="20" height="20">
+                                        Front-end
+                                    </a>
+                                    <a href="https://github.com/Mmimeaud/Pince-Back-Version-perso" target="_blank"
+                                        rel="noopener noreferrer"
+                                        class="text-center bg-black-jacket rounded-2xl  shadow-2xl shadow-black-jacket text-Linge hover:bg-pink-eclat hover:text-black-jacket mx-auto p-3"
+                                        aria-label="Voir le repositorie back dans Github, ouvre dans un nouvel onglet">
+                                        <img class="bg-Linge rounded-4xl mx-auto" src="../images/Icone/GitWhite.png"
+                                            width="20" height="20">
+                                        Back-end
+                                    </a>
+                                </div>
+                            </section>
+                        </div>
+
+
+                    </div>
+            
+            </article>
+            <!-- FIN CARTE 2 -->
+
+            <!-- CARTE 3  POKEDEX -->
+
+            <article class=" w-full mb-15">
+                <div class="border-2 border-pink-eclat rounded-4xl shadow-2xl p-10 relative flex  gap-5 flex-col ">
+                    <div class="flex flex-col gap-5 ">
+                        <div class="
+                         flex flex-col w-full  items-center
+                         tablet:flex tablet:flex-row tablet:gap-5">
+                            <!-- TITRE -->
+                            <h1 class="absolute left-[-30px] top-3 w-max h-max z-50 bg-pink-eclat px-4 rounded-2xl">
+                                2024: LE POKEDEX </h1>
+                            <!--CAROUSSEL  POKEDEX -->
+                            <section class="flex flex-row justify-center items-center w-full  relative">
+                                <!-- BOUTONS PRECEDENT -->
+                                <button
+                                    class="btn-left-js absolute left-6 -bottom-3
+                                 md:-bottom-10 z-10 md:p-2 md:m-5 m-2 
+                                bg-Linge rounded-3xl
+                                hover:transition-transform hover:duration-500 hover:-rotate-x-180 hover:bg-pink-eclat/70 shadow-2xl pointer-events-auto">
+
+                                    <img src="../images/Icone/previous.png" width="35" height="35"
+                                        alt="Bouton Précédent">
+                                </button>
+                                <!--contenant -->
+                                <div class="bg-Linge p-2 mt-5 carousel-card rounded-3xl shadow-2xl shadow-black-jacket flex flex-col items-center
+                                           md:p-2">
+                                    <!--rail  -->
+                                    <div
+                                        class="rail flex overflow-x-auto no-scrollbar snap-x snap-mandatory  scroll-smooth w-full h-full items-center">
+                                        <!--cartes / photos  -->
+                                        <div
+                                            class="snap-center shrink-0 mx-auto w-full h-full overflow-hidden flex justify-center items-center flex-col">
+
+                                            <img src="../images/mockups/Pokedex-homepage (1).png"
+                                                alt="Description de mon projet"
+                                                class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
+
+
+                                        </div>
+                                        <div
+                                            class="snap-center shrink-0 h-full w-full mx-auto overflow-hidden flex justify-center self-center items-center flex-col">
+                                            <video controls muted poster="Apercu-video du site Pokedex"
+                                                style="aspect-ratio: 4/3;"
+                                                class="w-full h-full  object-contain rounded-3xl shadow-lg border-2 border-pink-eclat">
+                                                <source src="../screen/Pokedex/Video.mp4" type="video/mp4">
+                                            </video>
+                                        </div>
+                                    </div>
+                                    <!-- FIN RAIL  -->
+
+
+
+                                    <!-- DOTS  -->
+                                    <div id="dots-container" class="flex justify-center gap-2 mt-4">
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="0"></div>
+                                        <div class="dot h-3 w-3 rounded-full bg-gray-300 transition-all duration-300"
+                                            data-index="1"></div>
+
+                                    </div>
+
+
+                                    <!-- FIN CONTENANT -->
+                                </div>
+
+                                <!-- BOUTON SUIVANT -->
+                                <button
+                                    class="btn-right-js  absolute right-6 -bottom-3 md:-bottom-10 z-10
+                                 md:p-2 md:m-5 m-2 
+                                  bg-Linge rounded-3xl rotate-180 hover:transition-transform hover:duration-500 hover:-rotate-x-180 hover:bg-pink-eclat/70 shadow-2xl pointer-events-auto">
+                                    <img src="../images/Icone/previous.png" width="35" height="35" alt="Bouton suivant">
+                                </button>
+
+
+                                <!--fin CAROUSSEL (section) -->
+                            </section>
+
+
+
+                            <!-- TAGS SKILLS et TOOLS  -->
+                            <section class="w-full">
+                                <!-- Contenant -->
+                                <div class="  flex flex-col  gap-5 mt-10 md:flex-row">
+                                    <!-- CADRE LES SILLS  -->
+                                    <div
+                                        class="relative border-2 border-pink-eclat bg-Linge rounded-3xl p-5 shadow-2xl  ">
+                                        <h3
+                                            class=" absolute top-[-12px] left-[-20px] text-sm px-6 text-center font-lora font-medium bg-Linge shadow-xl shadow-gray-500 border-2 border-pink-eclat/60 p-2 rounded-4xl">
+                                            SKILLS </h3>
+                                        <div
+                                            class=" flex flex-row flex-wrap  gap-y-2 mt-2 justify-center items-center ">
+
+                                            <div
+                                                class=" relative flex flex-row flex-wrap gap-x-15   gap-y-2 mt-5 max-w mb-0 justify-center">
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/Node.png" alt="Node.js Logo"
+                                                        class="w-10 h-10 object-contain rounded-2xl">
+                                                    <p class="text-tiny text-center"> Node.js </p>
+                                                </div>
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/express.png" alt="Express JS Logo"
+                                                        class="w-12 h-12 object-contain">
+                                                    <p class="text-tiny text-center"> Express.js </p>
+
+                                                </div>
+
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/postgres.png" alt="PostgreSQL  Logo"
+                                                        class="w-12 h-12 object-contain ">
+                                                    <p class="text-tiny text-center"> PostgresSQL </p>
+                                                </div>
+
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/sequelize_original_wordmark_logo_icon_146349.png"
+                                                        alt="Sequelize Logo"
+                                                        class="w-15 h-10 object-contain rounded-4xl ">
+
+                                                </div>
+
+
+
+                                            </div>
+                                            <div class=" mt-0 border-t-2 border-t-pink-eclat w-full"></div>
+
+                                            <div class="flex flex-row gap-x-15 gap-y-2 flex-wrap ml-5">
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/React.png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain rounded-2xl">
+                                                    <p class="text-tiny text-center"> Java Script </p>
+                                                </div>
+
+                                                <div class="flex flex-col justify-center items-center">
+                                                    <img src="../images/skills/typescript.png" alt="Tailwind CSS Logo"
+                                                        class="w-8 h-8 object-contain">
+                                                    <p class="text-tiny text-center">HTML 5</p>
+                                                </div>
+
+
+
+
                                             </div>
 
-                                            <div class="flex flex-col justify-center items-center">
-                                                <img src="../images/skills/html.png" alt="Tailwind CSS Logo"
-                                                    class="w-8 h-8 object-contain">
-                                                <p class="text-tiny text-center">HTML5</p>
-                                            </div>
-
-                                            <div class="flex flex-col justify-center items-center">
-                                                <img src="../images/skills/JS.png" alt="Tailwind CSS Logo"
-                                                    class="w-8 h-8 object-contain ">
-                                                <p class="text-tiny text-center">JavaScript ES6</p>
-                                            </div>
-
-                                            <div class="flex flex-col justify-center items-center">
-                                                <img src="../images/skills/page-responsive.png" alt="Tailwind CSS Logo"
-                                                    class="w-8 h-8 object-contain ">
-                                                <p class="text-tiny text-center">Responsive Design</p>
-                                            </div>
 
                                         </div>
                                     </div>
-
-                                    <div class="bg-pink-eclat/20 rounded-3xl p-5 shadow-2xl max-w-[90px]">
-                                        <h3 class="text-sm px-3 text-center font-lora font-medium"> Les outils </h3>
-                                        <div class=" flex flex-col flex-wrap gap-5 mt-2 justify-center items-center  ">
+                                    <!-- CADRE LES OUTILS -->
+                                    <div
+                                        class="relative border-2 border-pink-eclat bg-Linge rounded-3xl p-5 shadow-2xl">
+                                        <h3
+                                            class=" absolute top-[-12px] left-[-20px] text-sm px-6 text-center font-lora font-medium bg-Linge shadow-xl shadow-gray-500 border-2 border-pink-eclat/60 p-2 rounded-4xl">
+                                            OUTILS </h3>
+                                        <div class=" flex flex-row flex-wrap gap-5 mt-2 justify-center items-center  ">
 
                                             <div class="flex flex-col justify-center items-center">
-                                                <img src="../images/Icone/github (1).png" alt="Tailwind CSS Logo"
+                                                <img src="../images/Icone/github (1).png" alt="GitHub logo "
                                                     class="w-8 h-8 object-contain rounded-2xl">
                                                 <p class="text-tiny text-center"> Git/GitHub </p>
                                             </div>
 
                                             <div>
-                                                <img src="../images/skills/vercel-ltjv9ugkhzcj1yk16y59an.webp"
-                                                    alt="Tailwind CSS Logo"
-                                                    class="w-16 h-16 object-contain rounded-2xl">
+                                                <img src="../images/skills/render-logo-png_seeklogo-532232.png"
+                                                    alt="Render logo " class="w-16 h-16 object-contain rounded-2xl">
 
                                             </div>
 
-                                            <div>
-                                                <img src="../images/skills/render-logo-png_seeklogo-532232.png"
-                                                    alt="Tailwind CSS Logo"
-                                                    class="w-16 h-16 object-contain rounded-2xl">
-
+                                            <div class="flex flex-col justify-center items-center">
+                                                <img src="../images/skills/neon.png" alt="Tailwind CSS Logo"
+                                                    class="w-8 h-8 object-contain rounded-2xl">
+                                                <p class="text-tiny text-center"> Supabase </p>
                                             </div>
 
                                         </div>
                                     </div>
-                                </div>
-                            </div>
-                            <!-- END : TAGS SKILLS et TOOLS  -->
-                        </div> <!-- FIN DE BLOC 1-->
 
-                        <!-- SPEACH BLOC 2 -->
-                        <div
-                            class="  bg-Linge/50 p-2 mt-2 justify-center rounded-xl shadow-2xl shadow-black-jacket">
-                            <p class="text-sm"> Ce portfolio a été conçu avec deux objectifs clair : <span
-                                    class="text-pink-eclat font-bold"> Efficacité et rapidité.</span> </p>
-                            <p class="text-sm">J'ai fait le choix du
-                                HTML pur et un peu JavaScript natif pour garantir une rapidité de chargement maximale,
-                                tout
-                                en utilisant Tailwind CSS pour offrir une esthétique moderne et soignée sans la lourdeur
-                                d'un framework complexe.</p>
-                            <p class="text-tiny italic text-gray-600 border-t border-black/10 pt-2">
-                                <span class="font-bold">Prochainement (V2) :</span> Focus sur l'accessibilité avec
-                                l'intégration d'un mode sombre,
-                                le renforcement des contrastes et une typographie adaptée pour une expérience inclusive.
-                            </p>
+                                </div> <!-- FIN CONTENANT -->
+                            </section> <!-- FIN TAGS SKILLS et TOOLS  -->
                         </div>
 
-
-                    </div>
-
-                    <div class="border-2 border-amber-950 p-10 w-max-auto ">
-                        <p> PROJET PORTFOLIO </p>
-                        <!-- LE CARROUSSELLE DU PORTFOLIO -->
-
-                        <!-- 1 CONTENANT -->
-                        <div class="bg-black-jacket/80 p-2 mt-5 h-[350px] w-[450px] justify-center rounded-3xl shadow-2xl shadow-white
-        | md:w-[350px] md:h-[500px] md:p-2">
-                            <!-- 2 RAILS -->
-                            <div id="rail"
-                                class="flex overflow-x-auto no-scrollbar snap-x snap-mandatory  scroll-smooth w-full h-full">
-                                <!-- PHOTOS /VIDEO -->
-                                <div
-                                    class="snap-center shrink-0 w-full h-full  mx-auto overflow-hidden flex justify-center items-center flex-col pb-5">
-                                    <img src="../images/mockups/PortF-S-Screen.png" alt="Description de mon projet"
-                                        class="max-w-full max-h-full object-contain rounded-3xl shadow-lg ">
-                                    <p class="text-white pt-3"> Mon PortFolio</p>
+                        <!-- SPEACH  -->
+                        <section
+                            class=" mx-auto my-10 p-6 bg-white rounded-3xl shadow-xl border border-gray-100 |md:flex md:w-full">
+                            <div
+                                class="flex flex-row md:flex-row justify-between items-start md:items-center mb-8 gap-4">
+                                <div>
+                                    <h2 class="text-3xl font-bold text-gray-800 flex items-center gap-2">
+                                        <img src="../images/Icone/pokeballs.png"
+                                            width="40" height="40">
+                                        Le Pokedex
+                                    </h2>
                                 </div>
+
+
                             </div>
 
+                            <div class="mb-8 tablet:text-xl">
+                                <p class="text-gray-600 leading-relaxed">
+                                    Né d'un exercice de formation DWWM, ce Pokédex démontre ma capacité à concevoir
+                                    une <strong>architecture front-end</strong> solide sans dépendance externe.
+                                    Développé en
+                                    <strong>Single Page Application Vanilla JS</strong>, il intègre un <strong>routage
+                                        personnalisé</strong>,
+                                    une <strong>gestion d'état</strong> et la consommation de l'<strong>API REST
+                                        PokéAPI</strong>.
+                                    Depuis la fin de formation, j'ai migré la base de données sur
+                                    <strong>Supabase</strong>
+                                    avec un back-end déployé sur <strong>Render</strong>. Un projet qui prouve que je
+                                    comprends
+                                    ce que les frameworks font sous le capot — avant de les utiliser.
+                                </p>
 
 
-                        </div>
+                            </div>
+                            <div class="flex xs:flex-col sm:flex-row md:flex-row gap-5">
 
+                                <a href="https://github.com/Mmimeaud/Projet-Pokedex" target="_blank"
+                                    rel="noopener noreferrer"
+                                    class="text-center bg-black-jacket rounded-2xl  shadow-2xl shadow-black-jacket text-Linge hover:bg-pink-eclat hover:text-black-jacket mx-auto p-3"
+                                    aria-label="Voir le repository dans Github, ouvre dans un nouvel onglet">
+                                    <img class="bg-Linge rounded-4xl mx-auto" src="../images/Icone/GitWhite.png"
+                                        width="20" height="20">
+                                    Voir le répository
+                                </a>s
 
+                            </div>
                     </div>
+                    </section>
 
 
+                    <!-- FIN SPEACH  -->
 
 
-
-
-
-        </section>
+                </div> <!-- FIN CONTENEUR POKEDEX  -->
+            </article> <!-- FIN CARTE 3  POKEDEX -->
+            </div>
+        </div>
     </main>
 
     <footer class=" py-2 text-sm bg-pink-eclat/40 p-5">
@@ -206,24 +782,27 @@
             <h2 class="text-black-jacket font-bold text-sm 
         col-start-1 flex justify-center
         | md:col-span-1 md:flex md:items-center ">MON PORTFOLIO</h2>
-            <a href="./mentionLegales.html" class=" flex row-start-2 col-start-5 font-bold hover:text-pink-eclat transition-colors
+            <a href="./mentionLegales.html" class=" flex  xs:row-start-2 md:row-start-2 tablet:row-start-1 col-start-5 font-bold hover:text-pink-eclat transition-colors
                 | md:flex md:items-center">Mentions
                 Légales</a>
-            <p class="col-start-1 col-span-4
-        | md:col-span-1 md:flex md:items-center">© 2026 — Tous droits réservés Marjorie Mimeaud Grandon </p>
+            <p class="col-start-1 col-span-4 sm:row-start-2
+        | md:col-span-3 md:flex md:items-center">© 2026 — Tous droits réservés Marjorie Mimeaud Grandon </p>
 
 
 
-            <div class=" md:flex flex-col items-end row-start-1 col-start-5 md:row-start-1 md:col-start-4 ">
+            <div
+                class="flex laptop:flex-row  flex-col items-end row-start-1 col-start-5 xs:col-start-3 sm:col-start-3 md:row-start-1 md:col-start-5 tablet:col-start-3  justify-center ">
                 <p>mmimeaud@gmail.com </p>
 
-                <div class="flex ">
-                    <a href="#" class="hover:text-pink-eclat transition-colors md:place-items-end mr-3"
+                <div class="flex pl-5">
+                    <a href="https://github.com/Mmimeaud"
+                        class="hover:text-pink-eclat transition-colors md:place-items-end mr-3"
                         aria-label="Consulter mon profil Github (s'ouvre dans un nouvel onglet)" target="_blank"
                         rel="noopener noreferrer">
                         <img src="../images/Icone/github (1).png" width="20" height="20">
                     </a>
-                    <a href="#" class="hover:text-pink-eclat transition-colors"
+                    <a href="https://www.linkedin.com/in/marjorie-mimeaud-grandon-308447308/"
+                        class="hover:text-pink-eclat transition-colors"
                         aria-label="Consulter mon profil LinkedIn (s'ouvre dans un nouvel onglet)" target="_blank"
                         rel="noopener noreferrer">
                         <img src="../images/Icone/linkedin.png" width="20" height="20">
@@ -234,7 +813,9 @@
             </div>
 
         </div>
+
     </footer>
+    <script src="../js/main.js" defer></script>
 </body>
 
 </html>
