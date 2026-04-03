@@ -16,7 +16,7 @@
     rel="stylesheet" />
 </head>
 
-<body id="top" class="font-poppins ">
+<body id="top" class="font-poppins min-h-screen flex flex-col" >
 
        <!-- BOUTON retour accueil -->
         <nav>
@@ -29,7 +29,7 @@
             </div>
         </nav>
 
-        <main>
+        <main class="flex-1">
 <div class="max-w-3xl mx-auto group relative mt-8">
     <img 
         src="../images/skills/Marjorie MIMEAUD- CDA.jpg" 
@@ -47,29 +47,48 @@
      </a>
 </div>
 </main>
-  <footer class=" py-2 text-sm p-5">
+   <footer class=" py-2 text-xs bg-pink-eclat/40 p-5 mt-auto">
         <div class=" grid 
      grid-cols-5 grid-rows-2 
-    | md:grid-cols-4 md:grid-rows-1 ">
-            <h2 class="text-black-jacket font-bold text-sm 
-        col-span-2 flex justify-center
-        | md:col-span-1 md:flex md:items-center ">MON PORTFOLIO</h2>
-            <a href="./mentionLegales.html" class=" md:flex md:items-center font-bold hover:text-pink-eclat transition-colors">Mentions
+    |md:grid-cols-3 md:grid-rows-1
+    tablet:grid-cols-5 tablet:grid-rows-1
+    sm:grid-cols-2 sm:grid-rows-2
+    xs:grid-cols-3 xs:grid-rows-2
+    xs:items-center
+    ">
+
+            <h2 class="text-black-jacket font-bold text-xs 
+        col-span-2 xs:col-start-1  xs:row-start-1
+        | md:col-span-1 ">MON PORTFOLIO</h2>
+            <a href="./mentionLegales.html"
+                class="  xs:row-start-2 sm:col-start-1 sm:row-start-2  tablet:col-start-1 font-bold hover:text-pink-eclat transition-colors">Mentions
                 Légales</a>
-            <p class="col-start-1
-        | md:col-span-1 md:flex md:items-center">© 2026 — Tous droits réservés Marjorie Mimeaud Grandon </p>
+
+          <div class=" xs:flex
+        tablet:col-start-2 
+        md:col-span-2 md:col-start-2 md:row-start-1 md:text-center
+        xs:col-start-2 xs:row-start-2 xs:col-span-3 xs:justify-end
+        sm:col-start-2 sm:row-start-2 ">
+                <p class="xs:text-right sm:text-center md:text-left">
+                © 2026 — Tous droits réservés Marjorie Mimeaud Grandon </p>
+        </div>
 
 
 
-            <div class=" md:flex flex-col items-end md:row-start-1 md:col-start-4 ">
-                <p>mmimeaud@gmail.com </p>
-                <div class="flex ">
-                    <a href="#" class="hover:text-pink-eclat transition-colors md:place-items-end mr-3"
+            <div class="md:flex  flex xs:flex-col sm:gap-3 sm:flex-row md:col-start-4  xs:col-start-2 xs:col-span-2 xs:row-start-1  
+             sm:col-start-2  sm:row-start-1 tablet:col-start-5 tablet:flex-col">
+
+                <p class="xs:flex xs:justify-end sm:justify-start">mmimeaud@gmail.com </p>
+
+                <div class="flex flex-row  xs:justify-center sm:justify-start w-full tablet:flex-row" >
+                    <a href="https://github.com/Mmimeaud"
+                        class="hover:text-pink-eclat transition-colors md:place-items-end mr-3"
                         aria-label="Consulter mon profil Github (s'ouvre dans un nouvel onglet)" target="_blank"
                         rel="noopener noreferrer">
                         <img src="../images/Icone/github (1).png" width="20" height="20">
                     </a>
-                    <a href="#" class="hover:text-pink-eclat transition-colors"
+                    <a href="https://www.linkedin.com/in/marjorie-mimeaud-grandon-308447308/"
+                        class="hover:text-pink-eclat transition-colors"
                         aria-label="Consulter mon profil LinkedIn (s'ouvre dans un nouvel onglet)" target="_blank"
                         rel="noopener noreferrer">
                         <img src="../images/Icone/linkedin.png" width="20" height="20">
