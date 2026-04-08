@@ -344,6 +344,9 @@
   .mt-20 {
     margin-top: calc(var(--spacing) * 20);
   }
+  .mt-50 {
+    margin-top: calc(var(--spacing) * 50);
+  }
   .mt-auto {
     margin-top: auto;
   }
