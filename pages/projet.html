@@ -16,25 +16,53 @@
         rel="stylesheet" />
 </head>
 
-<body class=" font-poppins">
+<body class="font-poppins">
     <header class="px-5 py-5 ">
         <img width="580" height="580" class="absolute h-full top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-50  "
             src="../images/hero/decoration.png" alt="">
 
 
-        <!-- BOUTON retour accueil -->
-        <nav>
-            <div class="flex justify-between  w-full">
-                <div class="z-full">
-                    <img src="../images/hero/Image Chatgpt.png" width="50" height="50" class="ml-3 rounded-full border border-pink-eclat shadow-[0_0_15px_rgba(235,120,155,0.8)]
+       <!-- NAVIGATION -->
+        <nav class=" w-full shadow md:m-1 md:py-1.5 md:px-3 md:mb-4 z-50">
+            <div id="main-nav"
+                class=" bg-white  xs:right-0 md:mx-auto md:w-full  md:pl-5 md:pr-5 flex justify-between items-center flex-wrap md:m-1 md:max-w-6xl">
+
+                <div class=" xs:hidden md:block">
+                    <img src="../images/hero/Image Chatgpt.png" width="50" height="50" class=" not-[]:ml-3 rounded-full border border-pink-eclat shadow-[0_0_15px_rgba(235,120,155,0.8)]
                         | md:w-20" alt="" aria-hidden="true" .>
                 </div>
-                <a class=" pl-3 pr-3 pt-2 pb-2 rounded-2xl text-center h-full
-                    active:scale-95 transition-transform text-white bg-black hover:bg-pink-eclat hover:text-main cursor-pointer hover:duration-300 hover:skew-3"
-                    href=" ../index.html" aria-label="Bouton retour à la page principale"> Accueil
-                </a>
+                <button aria-control="main-navList" aria-expanded="false" id="menu-toggler"
+                    class="cursor-pointer w-7 xs:hidden  ">
+                    <img width="28" height="28" src="../images/hero/menu.svg" alt="Ouvrir et fermer le menu"  />
+                </button>
+
+                <ul id="main-navList"
+                    class="bg-white  w-full  text-gray-800 md:w-auto flex xs:gap-4 xs:justify-center  flex-row md:justify-end md:pt-0">
+                    <li class="block md:inline md:py-0 md:mr-6 ">
+                        <a href="../pages/cv.html" class="text-sm uppercase font-semibold hover:text-rose-600">CV
+                        </a>
+                    </li>
+                    <li class="block  md:inline md:py-0 md:mr-6">
+                        <a href="../index.html" class="text-sm uppercase font-semibold hover:text-rose-600">
+                           Accueil
+                        </a>
+                    </li>
+                    <li class="block  md:inline md:py-0 md:mr-6">
+                        <a href="../pages/projet.html" class="text-sm uppercase font-semibold hover:text-rose-600">Mes
+                            Projets
+                        </a>
+                    </li>
+                    <li class="block  md:inline md:py-0">
+                        <a href="../pages/contact.html"
+                            class="text-sm uppercase font-semibold hover:text-rose-600">Contact
+                        </a>
+                    </li>
+
+                </ul>
             </div>
+
         </nav>
+
     </header>
 
     <main>

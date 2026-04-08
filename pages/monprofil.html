@@ -16,26 +16,52 @@
         rel="stylesheet" />
 </head>
 
-<body class=" font-poppins">
-    <header class="px-5 py-5 ">
+<body  class=" font-poppins">
+    <header class="">
         <img width="580" height="580" class="absolute h-full top-1/2 left-1/2 -translate-y-1/2 -translate-x-1/2 -z-50  "
             src="../images/hero/decoration.png" alt="">
+        <!-- NAVIGATION -->
+        <nav class=" w-full shadow md:m-1 md:py-1.5 md:px-3 md:mb-4">
+            <div id="main-nav"
+                class=" xs:fixed sm:fixed md:static  bg-white  xs:right-0 md:mx-auto md:w-full  md:pl-5 md:pr-5 flex justify-between items-center flex-wrap md:m-1 md:max-w-6xl">
 
-
-        <!-- BOUTON retour accueil -->
-        <nav>
-            <div class="flex justify-between  w-full">
-                <div class="z-full">
-                    <img src="../images/hero/Image Chatgpt.png" width="50" height="50" class="ml-3 rounded-full border border-pink-eclat shadow-[0_0_15px_rgba(235,120,155,0.8)]
+                <div class=" xs:hidden md:block">
+                    <img src="../images/hero/Image Chatgpt.png" width="50" height="50" class=" not-[]:ml-3 rounded-full border border-pink-eclat shadow-[0_0_15px_rgba(235,120,155,0.8)]
                         | md:w-20" alt="" aria-hidden="true" .>
                 </div>
-                <a class=" pl-3 pr-3 pt-2 pb-2 rounded-2xl text-center h-full
-                    active:scale-95 transition-transform text-white bg-black hover:bg-pink-eclat hover:text-main cursor-pointer hover:duration-300 hover:skew-3"
-                    href=" ../index.html" aria-label="Bouton retour à la page principale"> Accueil
-                </a>
+                <button aria-control="main-navList" aria-expanded="false" id="menu-toggler"
+                    class="cursor-pointer w-7 md:hidden  ">
+                    <img width="28" height="28" src="../images/hero/menu.svg" alt="Ouvrir et fermer le menu"  />
+                </button>
+
+                <ul id="main-navList"
+                    class="bg-white hidden text-center w-full pt-4 text-gray-800 md:w-auto md:flex md:flex-row md:justify-end md:md:pt-0">
+                    <li class="block py-3 md:inline md:py-0 md:mr-6">
+                        <a href="../pages/cv.html" class="text-sm uppercase font-semibold hover:text-rose-600">CV
+                        </a>
+                    </li>
+                    <li class="block py-3 md:inline md:py-0 md:mr-6">
+                        <a href="../index.html" class="text-sm uppercase font-semibold hover:text-rose-600">
+                           Accueil
+                        </a>
+                    </li>
+                    <li class="block py-3 md:inline md:py-0 md:mr-6">
+                        <a href="../pages/projet.html" class="text-sm uppercase font-semibold hover:text-rose-600">Mes
+                            Projets
+                        </a>
+                    </li>
+                    <li class="block py-3 md:inline md:py-0">
+                        <a href="../pages/contact.html"
+                            class="text-sm uppercase font-semibold hover:text-rose-600">Contact
+                        </a>
+                    </li>
+
+                </ul>
             </div>
-       
+
         </nav>
+
+
     </header>
     <main class="px-5 py-5 ">
         <!-- TITRE -->
@@ -84,7 +110,8 @@
                     techniques en
                     auto-formation.</p>
                 <p class="mt-5 font-semibold"> Je recherche pour la rentrée prochaine une alternance où ma rigueur, ma
-                    maturité professionnelle et ma sensibilité à l'accessibilité seront des atouts pour vos projets. </p>
+                    maturité professionnelle et ma sensibilité à l'accessibilité seront des atouts pour vos projets.
+                </p>
             </section>
 
         </div>
@@ -125,10 +152,10 @@
                 <li class="bg-pink-eclat/30 p-5 rounded-full shadow-inner text-center">Node.JS</li>
                 <li class="bg-pink-eclat/30 p-5 rounded-full shadow-inner text-center">JavaScript</li>
                 <li class="bg-pink-eclat/30 p-5 rounded-full shadow-inner text-center">REACT/Next.Js </li>
-            
+
 
                 <li class="bg-pink-eclat/30 p-5 rounded-full shadow-inner text-center">SQL(Base)</li>
-                    <li class="bg-pink-eclat/30 p-5 rounded-full shadow-inner text-center">PostgresSQL </li>
+                <li class="bg-pink-eclat/30 p-5 rounded-full shadow-inner text-center">PostgresSQL </li>
                 <li class="bg-pink-eclat/30 p-5 rounded-full shadow-inner text-center">ORM:Sequalize </li>
             </ul>
         </section>
@@ -153,8 +180,8 @@
                             | md:flex-col md:justify-start md:max-w-[25%] ">
                             <div
                                 class="flex items-center justify-center w-10 h-10 rounded-full border border-white text-white shrink-0">
-                                <svg viewBox="0 0 100 100" class="w-10 h-10 fill-none stroke-[#EB789B] bg-Linge" stroke-width="3"
-                                    stroke-linecap="round" stroke-linejoin="round">
+                                <svg viewBox="0 0 100 100" class="w-10 h-10 fill-none stroke-[#EB789B] bg-Linge"
+                                    stroke-width="3" stroke-linecap="round" stroke-linejoin="round">
                                     <path
                                         d="M10 20 h60 a10 10 0 0 1 10 10 v40 a10 10 0 0 1 -10 10 h-30 l-20 15 v-15 h-10 a10 10 0 0 1 -10 -10 v-40 a10 10 0 0 1 10 -10 Z" />
 
@@ -188,7 +215,8 @@
 
                             <div class="ml-6 w-[calc(100%-4rem)]  p-4 rounded border border-gray-200 bg-white shadow md:items-start
                                        |md:w-full md:h-full">
-                                <div class="md:text-center"><time class="font-bold text-[#EB789B]">Nov-2024 - Juillet-2025</time>
+                                <div class="md:text-center"><time class="font-bold text-[#EB789B]">Nov-2024 -
+                                        Juillet-2025</time>
                                 </div>
                                 <h3 class="text-slate-900 font-bold text-lg">Titre Pro DWWM </h3>
                                 <p class="text-sm text-gray-600 mt-1">Reconversion passionnée vers le développement
@@ -249,11 +277,11 @@
 
         </section>
 
-<!-- Auto Formation-->
- <section class="bg-Linge/70 p-5 rounded-4xl shadow-inner mt-5">
+        <!-- Auto Formation-->
+        <section class="bg-Linge/70 p-5 rounded-4xl shadow-inner mt-5">
             <div>
-                <h2 class="text-center font-bold text-2xl uppercase mb-3 font-lora">Auto-Formation 
-                   
+                <h2 class="text-center font-bold text-2xl uppercase mb-3 font-lora">Auto-Formation
+
                 </h2>
 
                 <div
@@ -262,7 +290,7 @@
 
                     <div class=" flex flex-col gap-4
                     |  md:flex-row-reverse md:gap-0">
-                     <!-- En cours  -->
+                        <!-- En cours  -->
                         <div class="relative flex items-center justify-between
                             flex-col ">
                             <div
@@ -271,14 +299,18 @@
                             </div>
                             <div class="w-[calc(100%-4rem)] p-4 rounded border border-gray-200 bg-white shadow
                                    |md:w-full md:h-full">
-                                <div class="md:text-center"><time class="font-bold text-gray-500">Avril-26 /En cours </time>
+                                <div class="md:text-center"><time class="font-bold text-gray-500">Avril-26 /En cours
+                                    </time>
                                 </div>
-                                <h3 class="text-slate-900 font-bold text-center">UDEMY - Apprendre à programmer en Java </h3>
-                                <p class="text-sm text-gray-600 mt-1"><strong>Nombre d'heure :</strong> 16 Heures   </p>
-                                <p class="text-sm text-gray-600 mt-1"><strong>Projet de fin :  </strong> 
-                                <img src="../images/Icone/cone-davertissement.png" alt="Image cone de chantier" style="width: 35px; height: 35px;" class="mx-auto"></p>
-                                <p class="text-center text-tiny">En cours </p> 
-                                
+                                <h3 class="text-slate-900 font-bold text-center">UDEMY - Apprendre à programmer en Java
+                                </h3>
+                                <p class="text-sm text-gray-600 mt-1"><strong>Nombre d'heure :</strong> 16 Heures </p>
+                                <p class="text-sm text-gray-600 mt-1"><strong>Projet de fin : </strong>
+                                    <img src="../images/Icone/cone-davertissement.png" alt="Image cone de chantier"
+                                        style="width: 35px; height: 35px;" class="mx-auto">
+                                </p>
+                                <p class="text-center text-tiny">En cours </p>
+
                             </div>
                         </div>
 
@@ -289,23 +321,24 @@
                             flex-col ">
                             <div
                                 class="flex items-center justify-center w-10 h-10 rounded-full border border-white text-white shrink-0">
-                            
-                                <img src="../images/Icone/certificat.png" class="bg-Linge"  alt="Image  diplome" >
+
+                                <img src="../images/Icone/certificat.png" class="bg-Linge" alt="Image  diplome">
                             </div>
                             <div class="w-[calc(100%-4rem)] p-4 rounded border border-gray-200 bg-white shadow
                                    |md:w-full md:h-full">
                                 <div class="md:text-center"><time class="font-bold text-gray-500">Nov-2025</time>
                                 </div>
                                 <h3 class="text-slate-900 font-bold text-center">UDEMY - Tailwind de A à Z </h3>
-                                <p class="text-sm text-gray-600 mt-1"><strong>Nombre d'heure :</strong> 16 Heures   </p>
-                                <p class="text-sm text-gray-600 mt-1"><strong>Projet de fin :</strong> Coder un PortFolio en Tailwind  </p>
+                                <p class="text-sm text-gray-600 mt-1"><strong>Nombre d'heure :</strong> 16 Heures </p>
+                                <p class="text-sm text-gray-600 mt-1"><strong>Projet de fin :</strong> Coder un
+                                    PortFolio en Tailwind </p>
                             </div>
                         </div>
 
 
-                       
-                  
-                      
+
+
+
 
                     </div>
 
@@ -314,25 +347,25 @@
             </div>
 
         </section>
-        
-<!-- CV a télécharger -->
-         <section>        
-        </div>
-        <div class="p-5 mt-5 flex flex-col items-center ">
 
-            <a class="bg-black text-Linge rounded-4xl p-5 hover:bg-pink-eclat active:scale-95 transition-transform hover:text-main cursor-pointer flex  "
-                href="./cv.html">
-                <img width="20" height="20" src="../images/general/arrowDown.png " class="mr-3">
-                Voir mon CV 
-            </a>
+        <!-- CV a télécharger -->
+        <section>
+            </div>
+            <div class="p-5 mt-5 flex flex-col items-center ">
 
-        </div>
-        </section>    
+                <a class="bg-black text-Linge rounded-4xl p-5 hover:bg-pink-eclat active:scale-95 transition-transform hover:text-main cursor-pointer flex  "
+                    href="./cv.html">
+                    <img width="20" height="20" src="../images/general/arrowDown.png " class="mr-3">
+                    Voir mon CV
+                </a>
+
+            </div>
+        </section>
 
 
     </main>
 
-  <footer class=" py-2 text-xs bg-pink-eclat/40 p-5 mb-3">
+    <footer class=" py-2 text-xs bg-pink-eclat/40 p-5 mb-3">
         <div class=" grid 
      grid-cols-5 grid-rows-2 
     |md:grid-cols-3 md:grid-rows-1
@@ -349,14 +382,14 @@
                 class="  xs:row-start-2 sm:col-start-1 sm:row-start-2  tablet:col-start-1 font-bold hover:text-pink-eclat transition-colors">Mentions
                 Légales</a>
 
-          <div class=" xs:flex
+            <div class=" xs:flex
         tablet:col-start-2 
         md:col-span-2 md:col-start-2 md:row-start-1 md:text-center
         xs:col-start-2 xs:row-start-2 xs:col-span-3 xs:justify-end
         sm:col-start-2 sm:row-start-2 ">
                 <p class="xs:text-right sm:text-center md:text-left">
-                © 2026 — Tous droits réservés Marjorie Mimeaud Grandon </p>
-        </div>
+                    © 2026 — Tous droits réservés Marjorie Mimeaud Grandon </p>
+            </div>
 
 
 
@@ -365,7 +398,7 @@
 
                 <p class="xs:flex xs:justify-end sm:justify-start">mmimeaud@gmail.com </p>
 
-                <div class="flex flex-row  xs:justify-center sm:justify-start w-full tablet:flex-row" >
+                <div class="flex flex-row  xs:justify-center sm:justify-start w-full tablet:flex-row">
                     <a href="https://github.com/Mmimeaud"
                         class="hover:text-pink-eclat transition-colors md:place-items-end mr-3"
                         aria-label="Consulter mon profil Github (s'ouvre dans un nouvel onglet)" target="_blank"
@@ -385,5 +418,9 @@
 
         </div>
     </footer>
+
+      <script src="../js/main.js"></script>
+    <script src="../js/projet.js"></script>
 </body>
+
 </html>

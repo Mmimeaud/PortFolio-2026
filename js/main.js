@@ -15,7 +15,8 @@ const toggleMenuBtn = document.querySelector("#menu-toggler");
 const toggleMenuImg = document.querySelector("#menu-toggler img");
 const mainNavlist = document.querySelector("#main-navList");
 const menuLinks = document.querySelectorAll("#main-navList a");
-
+// Chemin de base selon la page courante
+const basePath = window.location.pathname.includes("/pages/") ? "../" : "./";
 
 if (toggleMenuBtn && mainNavlist) {
     toggleMenuBtn.addEventListener("click", toggleNav);
@@ -31,14 +32,15 @@ function toggleNav(){
     console.log(mainNavlist)
 if(mainNavlist.classList.contains("hidden")){
     mainNavlist.classList.remove("hidden")
-    toggleMenuImg.setAttribute("src", './images/hero/cross.svg')
+    toggleMenuImg.setAttribute("src", `${basePath}images/Icone/croix.png`)
+    console.log(toggleMenuImg)
     // Accessibilité : prevenir que le menu est ouvert 
     toggleMenuBtn.setAttribute("aria-expended", "true")
 
 
 }else{
     mainNavlist.classList.add("hidden")
-    toggleMenuImg.setAttribute("src", "./images/hero/menu.svg")
+    toggleMenuImg.setAttribute("src", `${basePath}images/hero/menu.svg`)
         // Accessibilité : prevenir que le menu est ouvert 
     toggleMenuBtn.setAttribute("aria-expended", "false")}
 
